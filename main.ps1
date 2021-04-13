@@ -9,9 +9,9 @@ do {
     Write-Host "Which breed do you want to know about?`n" -ForegroundColor Green
     Write-Breeds -Farm $farm
     Write-Host ""
-
-    Write-Host " [+]: to Add to collection (ex: +2)"
-    Write-Host " [-]: to Remove from collection (ex: -10)"
+    Write-Host " [#]: to Lookup from values above (ex: 5)"
+    Write-Host " [+#]: to Add to collection (ex: +2)"
+    Write-Host " [-#]: to Remove from collection (ex: -10)"
     Write-Host " [R]: to Reset collection"
     Write-Host " [Q]: to Quit`n"
 
