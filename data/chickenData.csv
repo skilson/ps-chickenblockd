@@ -1,0 +1,72 @@
+Breed,Parent_1,Parent_2,Special_Care
+Slime,Shroomlight,Melon,
+Lava,Blackstone,Red Sand,needs lava to survive as adult.
+Shroomlight,Glowstone,Magma,
+Ice,Slime,Spruce Log,
+Sponge,Glowstone,Water,
+Netherbrick,Netherrack,Lava,
+Crimson Stem,Shroomlight,Jungle,
+Endstone,Lapis,Purpur,
+Slimy Oak Log,Grass,Slime,
+Honey,Grass,Terracotta,
+Ancient Debris,Netherbrick,Iron,
+Jukebox,Glass,Terracotta,
+DanRobzProbz,Crimson Stem, Dark Oak Log,
+Lucky,DanRobzProbz,SquidgyFacePlays,
+SquidgyFacePlays,Ice,Gravel,
+Experience,Obsidian,Crying Obsidian,
+Diamond,Ice,Iron,
+Obsidian,Diamond,Emerald,
+Blaze,Lava,Honey,
+Purpur,Basalt,Emerald,
+Crying Obsidian,Lava,Water,
+Blackstone,Wool,Cobblestone,
+Basalt,Ice,Soul Sand,
+Soul Sand,Dirt,Netherrack,
+Water,Jungle Log,Acacia Log,needs water to survive as adult.
+Stone,Magma,Cobblestone,
+Warped Stem,Crimson Stem,Spruce Log,
+Glowstone,Coal,Mycelium,
+Terracotta,Clay,Magma,can be dyed.
+Prismarine,Crying Obsidian,Stone,
+Lapis,Warped Stem,Water,
+Upgraded Iron,-,-,requires placing an Iron Egg in Blast Furnace.
+Leather,Sand,Red Sand,
+Dark Oak Log,Magma,Oak Log,
+Jungle Log,Melon,Oak Log,
+Acacia Log,Dirt,Red Sand,
+Spruce Log,Cobblestone,Grass,
+Birch Log,Oak Log,Red Sand,
+Oak Log,Dirt,Wool,
+Redstone,Warped Stem,Red Sand,
+Coal,Skeleton,Gravel,
+Cobblestone,Coal,Gravel,
+Iron,Quartz,Stone,
+Snow,Prismarine,Quartz,
+Wool,-,-,is a natural spawn and can be dyed.
+Dirt,-,-,is a natural spawn.
+Red Sand,-,-,is a natural spawn.
+Glass,Lava,Sand,can be dyed.
+Magma,Cobblestone,Lava,
+Skeleton,Wool,Leather,is a natural spawn at night.
+Gold,Redstone,Blackstone,
+Sand,Red Sand,Wool,is a natural spawn.
+Mycelium,Skeleton,Dirt,
+Quartz,Gold,Crying Obsidian,
+Clay,Red Sand,Water,
+Emerald,Netherbrick,Diamond,
+Gravel,Skeleton,Birch Log,
+Grass,Acacia Log,Birch Log,is a natural spawn.
+Melon,Leather,Glass,
+Upgraded Gold,-,-,requires placing a Gold Egg in Blast Furnace.
+Netherrack,Blackstone,Iron,
+Hunter,-,-,is a hostile breed hatched from a bad egg.
+Spider,-,-,is a hostile breed hatched from a bad egg.
+Ghostly,-,-,is a hostile breed hatched from a bad egg.
+Creeper,-,-,is a hostile breed hatched from a bad egg.
+Fire,-,-,is a hostile breed hatched from a bad egg.
+Zombie,-,-,is a hostile breed hatched from a bad egg.
+Corrupted,-,-,is a hostile breed hatched from a bad egg.
+Chicken Token,-,-,spawns with Chicken Token Trader.
+Egg Chicken,-,-,spawns with Egg Chicken Trader.
+Knowledge Chicken,-,-,spawns with Knowledge Chicken Trader.
