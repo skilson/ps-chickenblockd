@@ -6,7 +6,7 @@
 
 Super rudimentary way to lookup matings for different chickens in Chicken Block'D as well track your progress.
 
-![Sample Image](/img/sample.png)
+![Sample Image](/img/sample.png?raw=true "Sample Image")
 
 What this does:
 * shows mating to create breed
