@@ -2,11 +2,11 @@
 
 [Chicken Block'D](https://www.minecraft.net/en-us/pdp?id=3d1d849b-cfbc-4461-b384-7a84402a7213)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/6uZKt0Kn5b4" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+[![YouTube Trailer](https://img.youtube.com/vi/6uZKt0Kn5b4/0.jpg)](https://www.youtube.com/embed/6uZKt0Kn5b4)
 
 Super rudimentary way to lookup matings for different chickens in Chicken Block'D as well track your progress.
 
-![Sample Text](.\img\sample.png)
+![Sample Image](.\img\sample.png)
 
 What this does:
 * shows mating to create breed
