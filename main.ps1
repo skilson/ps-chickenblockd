@@ -16,8 +16,9 @@ do {
     Write-Host " [Q]: to Quit`n"
 
     $selection = Read-Host
+
     switch ($selection) {
-        { $_ -gt 0 -and $_ -le $farm.Chickens.Length } {
+        { (Confirm-IfInteger -ValueToTest $_) -and ([int]$_ -gt 0) -and ([int]$_ -le $farm.Chickens.Count) } {
             $selection = $selection - 1
             Get-Mating -Breed $farm.Chickens[$selection].Breed -Farm $farm
             Get-Matings -Breed $farm.Chickens[$selection].Breed -Farm $farm
@@ -26,13 +27,15 @@ do {
             $target = $selection.Replace("+", "")
             if ((Confirm-IfInteger -ValueToTest $target) -and ([int]$target -gt 0) -and ([int]$target -le $farm.Chickens.Count)) {
                 Add-ToCollection -NewBreed $farm.Chickens[$target - 1].Breed
-            } else {Write-Host "Problem with the input given." -ForegroundColor Red}
+            }
+            else { Write-Host "Problem with the input given." -ForegroundColor Red }
         }
         { $_.StartsWith("-") } {
             $target = $selection.Replace("-", "")
             if ((Confirm-IfInteger -ValueToTest $target) -and ([int]$target -gt 0) -and ([int]$target -le $farm.Chickens.Count)) {
                 Remove-FromCollection -RemoveBreed $farm.Chickens[$target - 1].Breed
-            } else {Write-Host "Problem with the input given." -ForegroundColor Red}
+            }
+            else { Write-Host "Problem with the input given." -ForegroundColor Red }
         }
         "R" { Clear-Collection }
         "Q" { Write-Host "Thanks for stopping by!" -ForegroundColor Cyan }
